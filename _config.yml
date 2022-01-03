@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hodgepodge of tech tutorials, brewing and assorted other postings.
  
 url: "https://rsivilli.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
 twitter:
   username: robertsivilli
 name: Robert Sivilli
