@@ -4,6 +4,7 @@ date:   2022-01-01 09:13:56 -0700
 categories: smallprojects jekyll
 excerpt: 
 toc: true
+type: posts
 ---
 
 # Some kind of summary blurb (does meta data support?)
@@ -41,7 +42,7 @@ cd myblog && git init
 We'll go ahead and create a new branch `gh-pages` and switch to it now
 {% highlight console %}
 git checkout -b gh-pages
-{% highlight console %}
+{% endhighlight console %}
 
 Finally, create a new blog skeleton using the jekyll docker image:
 

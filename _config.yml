@@ -3,8 +3,8 @@ subtitle: Grab something high proof and lets jump in
 email: robert.sivilli@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hodgepodge of tech tutorials, brewing and assorted other postings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+ 
+url: "https://rsivilli.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: robertsivilli
 name: Robert Sivilli
@@ -14,7 +14,7 @@ teaser: /assets/images/jekyll-og.png
 #TODO find and add logo
 #logo: ""
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: air
 search: true
 social:
@@ -39,6 +39,10 @@ footer:
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: mmistakes/minimal-mistakes
+
 
 include: 
   - "_pages"
