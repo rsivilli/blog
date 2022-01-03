@@ -1,38 +1,72 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
+title: Building, Brewing and Brooding
+subtitle: Grab something high proof and lets jump in
+email: robert.sivilli@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hodgepodge of tech tutorials, brewing and assorted other postings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+twitter:
+  username: robertsivilli
+name: Robert Sivilli
+locale: "en-US"
+repository: rsivilli/blog
+teaser: /assets/images/jekyll-og.png
+#TODO find and add logo
+#logo: ""
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: air
+search: true
+social:
+  type: Person
+  links:
+    - https://www.linkedin.com/in/free-the-data/
+    - https://twitter.com/RobertSivilli
+    - https://github.com/rsivilli
+
+footer:
+  links:
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/RobertSivilli
+    - label: Linkedin
+      url:  https://www.linkedin.com/in/free-the-data/
+      icon: fab fa-fw fa-linkedin
+    - label: GitHub
+      url: https://github.com/rsivilli
+      icon: fab fa-fw fa-github     
+
+
 plugins:
   - jekyll-feed
+
+include: 
+  - "_pages"
+  - "_data"
+
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      author: Robert Sivilli
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      author: Robert Sivilli
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

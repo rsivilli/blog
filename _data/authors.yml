@@ -1,0 +1,14 @@
+Robert Sivilli:
+  name: Robert Sivilli
+  bio: Dynamic engineering and software leader with a decade of experience across the Department of Defense ranging from Autonomous Satellites to Cloud-based Data systems
+  avatar: "/assets/images/bio-photo.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/RobertSivilli"
+    - label: "Linkedin"
+      url:  https://www.linkedin.com/in/free-the-data/
+      icon: "fab fa-fw fa-linkedin"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rsivilli"
