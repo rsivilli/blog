@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme"
   gem "webrick", "~> 1.7"
   gem "jekyll-include-cache", "~> 0.2.1"
+  gem 'jekyll-pre-commit'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
