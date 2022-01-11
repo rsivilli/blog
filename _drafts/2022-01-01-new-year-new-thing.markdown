@@ -2,13 +2,12 @@
 title:  "New Year, New Thing"
 date:   2022-01-01 09:13:56 -0700
 categories: smallprojects jekyll
-excerpt: 
-toc: true
 type: posts
-description: 
+description: This post walks through using a docker for the local development of a blog using the jekyll framework and hosting that blog on github pages
 ---
 
-# Some kind of summary blurb (does meta data support?)
+*A brief walk through using of using docker for the local development of a blog based on the jekyll framework and hosting that blog on github pages*
+
 # Starting the new year
 Welcome to 2022 and to the B<sup>3</sup> blog. (actually, I guess it would be B<sup>4</sup> as the Building, Brewing and Betterment Blog). For this first post, I figured a sort of 'hello world' would be a good starting point as the point of this blog is, in part for me to try new things and document the process for those that might follow and learn from my mistakes. 
 

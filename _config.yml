@@ -64,6 +64,8 @@ defaults:
       related: true
       show_date: true
       author: Robert Sivilli
+      toc: true
+      toc_sticky: true
   - scope:
       path: ""
       type: pages
