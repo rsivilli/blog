@@ -214,31 +214,12 @@ With any luck, you'll be up and running in no time! I sincerely hope you found t
 
 Welcome again to 2022, may it be better than the last few! 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Additional Reading and References
 - Information on jekyll docker image [link](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
 - Jekyll site for further investigation [link](https://jekyllrb.com/)
-- 
+- Minimal Mistakes jekyll theme [link] (https://mmistakes.github.io/minimal-mistakes/)
+- Github Pages [link](https://docs.github.com/en/pages)
+
 
 
 
