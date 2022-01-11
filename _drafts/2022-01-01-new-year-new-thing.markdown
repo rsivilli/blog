@@ -25,7 +25,11 @@ Welcome to 2022 and to the B<sup>3</sup> blog. (actually, I guess it would be B<
 - A high performance hosting. There will be a future post to cover migrating to a cloud service provider and talking about the performance improvements. Github pages is free for all public repos and is a good way to cut your teeth. 
 
 ## Why a blog?
+That really depends on the person. Maybe you have a message to share, need a place to vent, or want to host click-bait in an effort to marginally increase revenue. 
 
+For me, I started this blog because I wanted to document my learning and my knowledge for others that follow behind me. I have tremendously benefited from those that have taken the time to explain a technology or document a process and I feel like I am overdue to start contributing. 
+
+Video blogs and streams certainly are more the fashion these days, but they lack some accessibility features that a written blog offer (live searches, on the fly translation, etc.). Considering much of this blog intends to include things like code snippets, written blogs also lend them selves to easy of use though the age old `ctrl+c`, `ctrl+v`. 
 
 
 # Let's Start Building!
@@ -217,7 +221,7 @@ Welcome again to 2022, may it be better than the last few!
 # Additional Reading and References
 - Information on jekyll docker image [link](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
 - Jekyll site for further investigation [link](https://jekyllrb.com/)
-- Minimal Mistakes jekyll theme [link] (https://mmistakes.github.io/minimal-mistakes/)
+- Minimal Mistakes jekyll theme [link](https://mmistakes.github.io/minimal-mistakes/)
 - Github Pages [link](https://docs.github.com/en/pages)
 
 
