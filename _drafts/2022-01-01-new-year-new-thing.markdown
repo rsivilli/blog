@@ -201,6 +201,7 @@ Make sure all changes are currently staged and committed:
 {% highlight console %}
 git add .
 git commit -m "initial commit"
+git push
 {% endhighlight %}
 
 Go back to the project on github and head to the `Settings` tab. `Pages` is its own option, second from the bottom - go there and make sure that the correct branch (`gh-pages`) and source path (`/(root)`)is selected. 
